@@ -1,0 +1,7 @@
+int tmult_ok(int x, int y) {
+
+    int p = x*y;
+    /* Либо x == 0, либо разделить p на x и сравнить с y */
+    return !x || p/x == y;
+}
+   

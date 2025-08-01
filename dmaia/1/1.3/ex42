@@ -1,0 +1,15 @@
+p ∧ T ≡ p - has dual -  p ∨ F ≡ p Identity laws
+p ∨ T ≡ T  - has dual - p ∧ F ≡ F Domination laws
+p ∨ p ≡ p - has dual -   p ∧ p ≡ p Idempotent laws
+p ∨ q ≡ q ∨ p - has dual - p ∧ q ≡ q ∧ p Commutative laws
+(p ∨ q) ∨ r ≡ p ∨ (q ∨ r) - has dual - (p ∧ q) ∧ r ≡ p ∧ (q ∧ r) Associative laws
+p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r) - has dual -  p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r) Distributive laws
+¬(p ∧ q) ≡ ¬p ∨ ¬q - has dual - ¬(p ∨ q) ≡ ¬p ∧ ¬q De Morgan’s laws 
+p ∨ (p ∧ q) ≡ p  - has dual -  p ∧ (p ∨ q) ≡ p Absorption laws
+p ∨ ¬p ≡ T  - has dual - p ∧ ¬p ≡ F Negation laws
+
+
+¬(¬p) ≡ p Double negation law
+
+
+

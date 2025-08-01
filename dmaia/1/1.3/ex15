@@ -1,0 +1,7 @@
+a) (p ∧ q) → p ≡ ¬(p ∧ q) ∨ p ≡ ¬p ∨ ¬q ∨ p ≡ T ∨ ¬q ≡ T
+b) p → (p ∨ q) ≡ ¬p ∨ p ∨ q ≡ T ∨ q ≡ T
+c) ¬p → (p → q) ≡ p ∨ (p → q) ≡ p ∨ ¬p ∨ q ≡ T ∨ q ≡ T
+d) (p ∧ q) → (p → q) ≡ (p ∧ q) → (p → q) ≡  ¬(p ∧ q) ∨ (p → q) ≡ ¬(p ∧ q) ∨ (¬p ∨ q) ≡ ¬p ∨ ¬q ∨ ¬p ∨ q
+≡ ¬p ∨ T ≡ T
+e) ¬(p → q) → p ≡ ¬(¬p ∨ q) → p ≡ (p ∧ ¬q) → p ≡ ¬(p ∧ ¬q) ∨ p ≡ ¬p ∨ q ∨ p ≡ T ∨ q ≡ T
+f ) ¬(p → q) → ¬q ¬(¬p ∨ q) → ¬q ≡ (p ∧ ¬q) → ¬q ≡ ¬(p ∧ ¬q) ∨ ¬q ≡ ¬p ∨ q ∨ ¬q  ≡ T ∨ ¬p ≡ T

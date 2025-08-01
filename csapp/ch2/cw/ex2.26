@@ -1,0 +1,16 @@
+
+size_t strlen(const char *s);
+
+int strlonger(char *s, char *t) {
+    return strlen(s) - strlen(t) > 0;
+}
+
+1. strlen(s) < strlen(t)
+2. "strlen(s) - strlen(t)" expression unsigned so value of expression always >= 0 
+3. 
+
+int strlonger(char *s, char *t) {
+    //1 return ssize_t(strlen(s) - strlen(t)) > 0;
+
+    return strlen(s) > strlen(t);
+}

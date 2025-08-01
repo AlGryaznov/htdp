@@ -1,0 +1,15 @@
+1. x == (int)(double)x  yes
+    
+2. x == (int)(float)x   no.
+
+3. d == (double)(float)d    no. 
+
+4. f == (float)(double)f    yes
+
+5. f == -(-f) yes
+
+6. 1.0/2 == 1/2.0 yes
+
+7. d*d >= 0.0 yes
+
+8. (f+d)-f == d no

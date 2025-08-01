@@ -1,0 +1,10 @@
+p → q ≡ ¬q → ¬p
+
+
+p | q |¬p |¬q | p → q | ¬q → ¬p |
+----------------------------------
+T   T   F   F     T       T
+T   F   F   T     F       F
+F   T   T   F     T       T
+F   F   T   T     T       T   
+

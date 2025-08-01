@@ -1,0 +1,19 @@
+a) p ∨ q ≡ q ∨ p
+ 
+ p  q  |  p ∨ q | q ∨ p
+-----------------------
+ F  F       F       F   
+ F  T       T       T
+ T  F       T       T
+ T  T       T       T
+
+
+b) p ∧ q ≡ q ∧ p
+
+ p  q  |  p ∧ q | q ∧ p
+-----------------------
+ F  F       F       F   
+ F  T       F       F
+ T  F       F       F
+ T  T       T       T
+

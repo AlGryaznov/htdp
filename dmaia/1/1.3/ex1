@@ -1,0 +1,53 @@
+a) p ∧ T ≡ p - Verified
+
+p T | p ∧ T
+-----------
+F T     F
+T T     T
+
+
+
+b) p ∨ F ≡ p - Verified
+
+p F | p ∨ F
+-----------
+F F     F
+T F     T
+
+
+
+c) p ∧ F ≡ F - Verified
+
+p F | p ∧ F
+-----------
+F F     F
+T F     F
+
+
+
+d) p ∨ T ≡ T - Verified
+
+p F | p ∨ T
+-----------
+F T     T
+T T     T
+
+
+
+e) p ∨ p ≡ p - Verified
+
+p p | p ∨ p
+-----------
+F F     F
+T T     T
+
+
+  
+f) p ∧ p ≡ p - Verified
+
+p p | p ∧ p
+-----------
+F F     F
+T T     T
+
+

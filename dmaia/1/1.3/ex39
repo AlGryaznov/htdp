@@ -1,0 +1,16 @@
+a) s  = p ∧ ¬q ∧ ¬r
+   s* = p ∨ ¬q ∨ ¬r 
+
+b) s  = (p ∧ q ∧ r) ∨ s
+   s* = (p ∨ q ∨ r) ∧ s 
+
+c) s  = (p ∨ F) ∧ (q ∨ T)
+   s* = (p ∧ T) ∨ (q ∧ F) 
+
+
+p | q |¬p |¬q | p ∨ F | q ∨ T | (p ∨ F) ∧ (q ∨ T) | p ∧ T | q ∧ F | (p ∧ T) ∨ (q ∧ F)
+--------------------------------------------------------------------------------------
+T   T   F   F     T       T         T                 T       F         T
+T   F   F   T     T       T         T                 T       F         T
+F   T   T   F     F       T         F                 F       F         F
+F   F   T   T     F       T         F                 F       F         F

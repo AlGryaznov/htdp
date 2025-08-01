@@ -1,0 +1,13 @@
+
+/* ВНИМАНИЕ: этот код содержит ошибку */
+float sum_elements(float a[], unsigned length) {
+
+    int i;
+    float result = 0;
+    for (i = 0; i <= length-1; i++)
+        result += a[i];
+    return result;
+
+}
+
+for (i = 0; i <= length-1; i++) -> (unsigned)i <= (unsigned)length - 1 = 0 - 1 = 0xFFFFFFFF

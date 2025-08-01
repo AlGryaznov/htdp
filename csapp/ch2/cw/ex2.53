@@ -1,0 +1,10 @@
+
+#define POS_INFINITY    2E308
+#define NEG_INFINITY    (-POS_INFINITY)
+#define NEG_ZERO        (-1.0/POS_INFINITY)
+
+
+
+#define POS_INFINITY    (0x7FFU<<52)
+#define NEG_INFINITY    (0xFFFU<<52)
+#define NEG_ZERO        (1U << 63)

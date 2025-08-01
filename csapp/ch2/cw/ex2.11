@@ -1,0 +1,24 @@
+void reverse_array(int a[], int cnt) {
+
+    int first, last;
+    for (first = 0, last = cnt-1;
+        first <= last;
+        first++,last--)
+        inplace_swap(&a[first], &a[last]);
+}
+
+1. first = 2k/2 + 1 = k + 1
+   last  = 2k/2 + 1 = k + 1
+
+2. swap args point to the same object and a ^ a = 0
+3.
+
+void reverse_array(int a[], int cnt) {
+
+    int first, last;
+    for (first = 0, last = cnt-1;
+        first < last;
+        first++,last--)
+        inplace_swap(&a[first], &a[last]);
+}
+

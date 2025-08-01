@@ -1,0 +1,4 @@
+∧ and  ¬ operators is functionally complete collection of logical operators
+compound propostion of form p ∨ q may be presented as a ¬(¬p ∧ ¬q)
+that means that every disjunctive normal form could replace ∨ with ∧ and ¬  
+what leads us to conclusion that ∧ and  ¬ operators is functionally complete

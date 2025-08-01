@@ -1,0 +1,13 @@
+int val = 0x87654321;
+byte_pointer valp = (byte_pointer) &val;
+show_bytes(valp, 1); /* A */
+show_bytes(valp, 2); /* B */
+show_bytes(valp, 3); /* C */
+
+ADR: 0x01 0x02 0x03 0x04
+LE:   21   43   65   87  
+BE:   87   65   43   21   
+
+A. LE(straight): 43  BE(reverse): 65 
+B. LE(straight): 65  BE(reverse): 43 
+C. LE(straight): 87  BE(reverse): 21 

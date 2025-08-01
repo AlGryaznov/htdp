@@ -1,0 +1,23 @@
+a) Show that p | p is logically equivalent to ¬p.
+
+
+p | p |  p|p  |    ¬p
+------------------------------------
+T   T     F         F	
+F   F     T         T
+
+
+
+b) Show that (p | q) | (p | q) is logically equivalent to
+p ∧ q.
+
+
+p | q | p | q | (p | q) | (p | q)
+------------------------------------
+T   T     F      	T	
+T   F     T     	F
+F   T     T      	F
+F   F     T      	F   
+
+
+c) From {|} we can get a ∧, ¬, which functionally complete collection of logical operators we can conclude that {|} functionally complete too

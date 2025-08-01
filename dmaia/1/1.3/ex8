@@ -1,0 +1,23 @@
+a) Kwame will take a job in industry or go to graduate school.
+    
+   r ∨ h   
+   ¬(r ∨ h) ≡ ¬r ∧ ¬h 
+   Kwame will not take a job in industry and Kwame do not go to graduate school.     
+
+b) Yoshiko knows Java and calculus.
+
+   r ∧ h   
+   ¬(r ∧ h) ≡ ¬r ∨ ¬h  
+   Yoshiko doesn't know Java or Yoshiko doesn't know calculus
+
+c) James is young and strong.
+
+   r ∧ h   
+   ¬(r ∧ h) ≡ ¬r ∨ ¬h  
+   James is not young or James is not strong.
+
+d) Rita will move to Oregon or Washington.
+
+   r ∨ h   
+   ¬(r ∨ h) ≡ ¬r ∧ ¬h 
+   Rita will not move to Oregon and Rita will not move to Washington.

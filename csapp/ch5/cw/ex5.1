@@ -1,0 +1,6 @@
+void swap(long *xp, long *yp)
+{
+    *xp = *xp + *yp;   /* x' = x + y */        /* x' = x + x */   
+    *yp = *xp - *yp;   /* y' = x + y - y */    /* y' = (x + x) - (x + x) = 0*/
+    *xp = *xp - *yp;   /* x''= 0 - 0 */        /* x''= 0 - 0 */
+}

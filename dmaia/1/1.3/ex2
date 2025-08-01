@@ -1,0 +1,8 @@
+a) ¬(¬p) ≡ p - Verified
+
+p  ¬p | ¬(¬p)
+-----------
+F   T     F
+T   F     T
+
+

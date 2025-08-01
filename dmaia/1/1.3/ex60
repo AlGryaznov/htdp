@@ -1,0 +1,24 @@
+Show that if p, q, and r are compound propositions such
+that p and q are logically equivalent and q and r are log-
+ically equivalent, then p and r are logically equivalent.
+
+ ↔ ≡ ∧ ∨ ¬
+
+(p ↔ q) ∧ (q ↔ r) ≡ (p ↔ r)
+
+((p ↔ q) ∧ (q ↔ r)) → (p ↔ r) it's tautalogy
+
+
+
+p | q | r | p ↔ q | q ↔ r | (p ↔ q) ∧ (q ↔ r)  | p ↔ r | ((p ↔ q) ∧ (q ↔ r)) → (p ↔ r) 
+-----------------------------------------------------------------------------------
+T   T   T     T       T         T                  T       		T            
+T   T   F     T       F         F                  F        		T       		
+T   F   T     F       F         F                  T               	T
+T   F   F     F       T         F                  F               	T
+F   T   T     F       T         F                  F               	T
+F   T   F     F       F         F                  T               	T
+F   F   T     T       F         F                  F               	T
+F   F   F     T       T         T                  T              	T
+
+

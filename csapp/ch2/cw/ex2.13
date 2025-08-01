@@ -1,0 +1,28 @@
+/* Объявления функций, реализующих операции bis и bic */
+int bis(int x, int m); // x | m 
+int bic(int x, int m); // x & ~m
+
+/* Вычислить x|y, используя только функции bis и bic */
+int bool_or(int x, int y) {
+    int result = bis(x, y);
+    return result;
+}
+
+/* Вычислить x^y, используя только функции bis и bic */
+int bool_xor(int x, int y) {
+    int result = bis(bic(x, y), bic(y, x));
+    return result;
+}
+
+
+int bool_not(int x) {
+    int result = bool_xor(x, ~0);
+    return result;
+}
+
+
+int bool_and(int x, int y) {
+    int result = bic(x, bool_not(y));
+    return result;
+}
+

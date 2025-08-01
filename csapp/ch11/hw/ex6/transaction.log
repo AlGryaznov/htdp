@@ -1,0 +1,23 @@
+GET / HTTP/1.1
+Host: localhost:10000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Connection: keep-alive
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Site: same-origin
+
+HTTP/1.0 200 OK
+Server: Tiny Web Server
+Content-length: 120
+Content-type: text/html
+
+<html>
+<head><title>test</title></head>
+<body> 
+<img align="middle" src="godzilla.gif">
+Dave O'Hallaron
+</body>
+</html>

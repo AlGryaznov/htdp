@@ -1,0 +1,33 @@
+a)(p ∨ q ∨ ¬r) ∧ (p ∨ ¬q ∨ ¬s) ∧ (p ∨ ¬r ∨ ¬s) ∧ (¬p ∨ ¬q ∨ ¬s) ∧ (p ∨ q ∨ ¬s) is satisfiable
+ has got aleast one solution {p, q, r, s} = {T, T, F, F}
+
+if s = F, then (p ∨ ¬q ∨ ¬s) ∧ (p ∨ ¬r ∨ ¬s) ∧ (¬p ∨ ¬q ∨ ¬s) ∧ (p ∨ q ∨ ¬s) is T
+
+
+
+
+b) (¬p ∨ ¬q ∨ r) ∧ (¬p ∨ q ∨ ¬s) ∧ (p ∨ ¬q ∨ ¬s) ∧ (¬p ∨ ¬r ∨ ¬s) ∧ (p ∨ q ∨ ¬r) ∧ (p ∨ ¬r ∨ ¬s) is satisfiable
+has got aleast one solution {p, q, r, s} = {T, T, F, F}
+
+if s = F, then (¬p ∨ q ∨ ¬s) ∧ (p ∨ ¬q ∨ ¬s) ∧ (¬p ∨ ¬r ∨ ¬s) ∧ (p ∨ ¬r ∨ ¬s) is T
+
+if (p, q) = (T, T) and r = F , then (¬p ∨ ¬q ∨ r) ∧ (p ∨ q ∨ ¬r) is T
+
+
+
+
+c) (p ∨ q ∨ r) ∧ (p ∨ ¬q ∨ ¬s) ∧ (q ∨ ¬r ∨ s) ∧ (¬p ∨ r ∨ s) ∧ (¬p ∨ q ∨ ¬s) ∧ (p ∨ ¬q ∨ ¬r) 
+∧ (¬p ∨ ¬q ∨ s) ∧ (¬p ∨ ¬r ∨ ¬s) is satisfiable
+ has got aleast one solution {p, q, r, s} = {F, F, T, F}
+
+
+if p = F, then (¬p ∨ r ∨ s) ∧ (¬p ∨ ¬q ∨ s) ∧ (¬p ∨ q ∨ ¬s) is T
+
+if s = F, then (p ∨ ¬q ∨ ¬s) ∧ (¬p ∨ ¬r ∨ ¬s) is T
+
+if q = T, then (p ∨ q ∨ r) ∧ (q ∨ ¬r ∨ s)  
+
+if r = F, then (p ∨ ¬q ∨ ¬r)
+
+
+

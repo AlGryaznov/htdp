@@ -1,0 +1,28 @@
+згляните на следующие функции:
+long min(long x, long y)    { return x < y ? x : y; }
+long max(long x, long y)    { return x < y ? y : x; }
+void incr(long *xp, long v) { *xp += v; }
+long square(long x)         { return x*x; }
+ 
+
+Они вызываются следующими тремя фрагментами кода:
+1.		 for (i = min(x, y); i < max(x, y); incr(&i, 1))		
+                t += square(i);
+
+2.		 for (i = max(x, y) - 1; i >= min(x, y); incr(&i, -1))
+		        t += square(i);
+
+3.		 long low = min(x, y);
+		 long high = max(x, y);
+
+		 for (i = low; i < high; incr(&i, 1))		
+                t += square(i);
+
+
+Предположив, что x равно 10, а y равно 100, заполните следующую таблицу. Укажите,
+сколько раз будет вызвана каждая из этих четырех функций в фрагментах кода 1–3
+
+Фрагмент кода   min     max     incr    square
+1               1       91      90      90
+2               91      1       90      90          
+3               1       1       90      90

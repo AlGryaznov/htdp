@@ -1,0 +1,16 @@
+The following sentence is taken from the speciﬁcation of
+a telephone system: “If the directory database is opened,
+then the monitor is put in a closed state, if the sys-
+tem is not in its initial state.” This speciﬁcation is hard
+to understand because it involves two conditional state-
+ments. Find an equivalent, easier-to-understand speciﬁ-
+cation that involves disjunctions and negations but not
+conditional statements.
+
+
+“If the directory database is opened,
+then the monitor is put in a closed state, if the sys-
+tem is not in its initial state.”
+
+
+¬si → (do → mc) ≡ si ∨ ¬do ∨ mc

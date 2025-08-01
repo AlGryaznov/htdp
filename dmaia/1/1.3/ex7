@@ -1,0 +1,23 @@
+a) Jan is rich and happy.
+    
+   r ∧ h   
+   ¬(r ∧ h) ≡ ¬r ∨ ¬h  
+   Jan is not rich or Jan is not happy.     
+
+b) Carlos will bicycle or run tomorrow.
+
+   r ∨ h   
+   ¬(r ∨ h) ≡ ¬r ∧ ¬h 
+   Carlos will not bicycle tomorrow and Carlos is not run tomorrow.
+
+c) Mei walks or takes the bus to class.
+
+   r ∨ h
+   ¬(r ∨ h) ≡ ¬r ∧ ¬h  
+   Mei doesn't walk to class and Mei doesn't take the bus to class.  
+
+d) Ibrahim is smart and hard working.
+
+   r ∧ h   
+   ¬(r ∧ h) ≡ ¬r ∨ ¬h  
+   Ibrahim is not smart or Ibrahim is not hard working.

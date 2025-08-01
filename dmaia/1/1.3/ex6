@@ -1,0 +1,8 @@
+¬(p ∧ q) ≡ ¬p ∨ ¬q
+
+ p  q  | p ∧ q | ¬p | ¬q | ¬(p ∧ q) | ¬p ∨ ¬q
+----------------------------------------------
+ F  F      F      T    T       T         T 
+ F  T      F      T    F       T         T
+ T  F      F      F    T       T         T
+ T  T      T      F    F       F         F   

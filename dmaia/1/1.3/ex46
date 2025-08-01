@@ -1,0 +1,19 @@
+p ∨ (p ∧ q) ≡ p
+
+ p  q  | p ∧ q | p ∨ (p ∧ q)
+
+
+
+
+
+ p  q  
+----------------------------
+ F  F      F      F  
+ F  T      F      F
+ T  F      F      T
+ T  T      T      T 
+
+
+disjunctive normal form:
+(p ∧ q) ∨ (p ∧ ¬q) ∨ (p ∧ ¬q) ∨ (p ∧ q) ≡ (p ∧ q) ∨ (p ∧ ¬q)
+

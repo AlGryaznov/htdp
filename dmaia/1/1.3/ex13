@@ -1,0 +1,47 @@
+a) (p ∧ q) → p
+
+hypothesis: p ∧ q - must be true
+conclusion: p - must be false
+
+if "p" false, then  "p ∧ q" no matter what it will be false
+
+
+b) p → (p ∨ q)
+
+hypothesis: p - must be true
+conclusion: p ∨ q - must be false
+
+if "p" true, then "p ∨ q" no matter what it will be true
+
+
+c) ¬p → (p → q)
+
+hypothesis: ¬p - must be true
+conclusion: p → q - must be false
+
+if "p" false, then "p → q" no matter what it will be true
+
+
+d) (p ∧ q) → (p → q)
+
+hypothesis: p ∧ q - must be true
+conclusion: p → q - must be false
+
+if "p" and "q" must be true, then "p → q" no matter what it will be true
+
+e) ¬(p → q) → p
+
+hypothesis: ¬(p → q) - must be true
+conclusion: p - must be false
+
+if "p" must be false, then "p → q" no matter what it will be true and ¬(p → q) false
+
+
+f ) ¬(p → q) → ¬q
+
+hypothesis: ¬(p → q) - must be true
+conclusion: ¬q - must be false
+
+if "q" must be true, then "p → q" no matter what it will be true and ¬(p → q) false
+
+

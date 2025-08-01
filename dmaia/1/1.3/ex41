@@ -1,0 +1,3 @@
+(s*)* = s
+
+if s got { ∧, ∨, T, F }, then it becames { v, ∧, F, T } in s* and back to origin in (s*)*

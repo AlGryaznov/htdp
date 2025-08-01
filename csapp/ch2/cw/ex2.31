@@ -1,0 +1,10 @@
+/* Determine whether arguments can be added without overflow */
+/* WARNING: This code is buggy. */
+int tadd_ok(int x, int y) {
+	int sum = x+y;
+	return (sum-x == y) && (sum-y == x);
+}
+
+(x + y) - x always give a y
+
+(x + y) - y always give a x

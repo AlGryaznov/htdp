@@ -1,0 +1,31 @@
+a) [¬p ∧ (p ∨ q)] → q
+
+hypothesis: [¬p ∧ (p ∨ q)] - must be true
+conclusion: q - must be false
+
+if "q" false, then "(p ∨ q)" is p no matter what and [¬p ∧ (p ∨ q)] awlays false
+
+b) [(p → q) ∧ (q → r)] → (p → r)
+
+hypothesis: (p → q) ∧ (q → r) - must be true
+conclusion: (p → r) - must be false
+
+if (p → r) false, then "p" is true and "r" is false and 
+"(q → r)" and ("p → q)" must be true but to become "(q → r)" true q must be false, so then "(p → q)" be false which leads us to "(p → q) ∧ (q → r)" is false no matter what
+
+c) [p ∧ (p → q)] → q
+
+hypothesis: [p ∧ (p → q)] - must be true
+conclusion: q - must be false
+
+if "q" is false, then to become "p ∧ (p → q)" true "(p → q)" must be true so p must be false but
+it makes "p ∧ (p → q)" false
+
+d) [(p ∨ q) ∧ (p → r) ∧ (q → r)] → r
+
+hypothesis: [(p ∨ q) ∧ (p → r) ∧ (q → r)]  - must be true
+conclusion: r - must be false
+
+if "r" is false, then "(p ∨ q) ∧ (p → r) ∧ (q → r)" must be true, 
+to become "(q → r)" true q must be false and to become "(p → r)" true p must be false 
+but this leads us to "(p ∨ q)" be false and "(p ∨ q) ∧ (p → r) ∧ (q → r)" also false
